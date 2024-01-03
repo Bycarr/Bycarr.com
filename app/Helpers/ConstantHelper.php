@@ -1,0 +1,34 @@
+<?php
+
+namespace App\Helpers;
+
+class ConstantHelper
+{
+    const DEFAULT_PAGE_LIMIT = 10;
+    const DEFAULT_DATE_FORMAT = 7;
+
+    const STATUS_INACTIVE = 0;
+    const STATUS_ACTIVE = 1;
+
+    const CONTACT_VERIFIED = 1;
+    const CONTACT_UNVERIFIED = 0;
+
+    const MENU_TYPE_CONTENT = 1;
+    const MENU_TYPE_BRAND = 2;
+    const MENU_TYPE_CUSTOM = 3;
+
+    const BOOKING_STATUS_INITIATE = 1;
+    const BOOKING_STATUS_PENDING = 2;
+    const BOOKING_STATUS_CONFIRMED = 3;
+    const BOOKING_STATUS_CANCELLED = 4;
+    const BOOKING_STATUS_PROCESSING = 5;
+    const BOOKING_STATUS_COMPLETED = 6;
+    const BOOKING_STATUS_CLOSED = 7;
+
+    const PAYMENT_STATUS_PENDING = 1;
+    const PAYMENT_STATUS_PAID = 2;
+    const PAYMENT_STATUS_FAILED = 3;
+    const PAYMENT_STATUS_PROCESSING = 4;
+    const PAYMENT_STATUS_REFUNDED = 5;
+    const PAYMENT_STATUS_TO_BE_REFUNDED = 6;
+}
